@@ -1,0 +1,10 @@
+C:\Users\garayt\source\repos\HelloOthers\HelloOthers\bin\Debug\netcoreapp2.0\HelloOthers.deps.json
+C:\Users\garayt\source\repos\HelloOthers\HelloOthers\bin\Debug\netcoreapp2.0\HelloOthers.runtimeconfig.json
+C:\Users\garayt\source\repos\HelloOthers\HelloOthers\bin\Debug\netcoreapp2.0\HelloOthers.runtimeconfig.dev.json
+C:\Users\garayt\source\repos\HelloOthers\HelloOthers\bin\Debug\netcoreapp2.0\HelloOthers.dll
+C:\Users\garayt\source\repos\HelloOthers\HelloOthers\bin\Debug\netcoreapp2.0\HelloOthers.pdb
+C:\Users\garayt\source\repos\HelloOthers\HelloOthers\obj\Debug\netcoreapp2.0\HelloOthers.csproj.CoreCompileInputs.cache
+C:\Users\garayt\source\repos\HelloOthers\HelloOthers\obj\Debug\netcoreapp2.0\HelloOthers.AssemblyInfoInputs.cache
+C:\Users\garayt\source\repos\HelloOthers\HelloOthers\obj\Debug\netcoreapp2.0\HelloOthers.AssemblyInfo.cs
+C:\Users\garayt\source\repos\HelloOthers\HelloOthers\obj\Debug\netcoreapp2.0\HelloOthers.dll
+C:\Users\garayt\source\repos\HelloOthers\HelloOthers\obj\Debug\netcoreapp2.0\HelloOthers.pdb

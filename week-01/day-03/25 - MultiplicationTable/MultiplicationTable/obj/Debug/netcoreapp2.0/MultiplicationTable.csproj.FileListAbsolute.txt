@@ -1,0 +1,11 @@
+C:\Users\garayt\source\repos\MultiplicationTable\MultiplicationTable\obj\Debug\netcoreapp2.0\MultiplicationTable.csprojResolveAssemblyReference.cache
+C:\Users\garayt\source\repos\MultiplicationTable\MultiplicationTable\obj\Debug\netcoreapp2.0\MultiplicationTable.csproj.CoreCompileInputs.cache
+C:\Users\garayt\source\repos\MultiplicationTable\MultiplicationTable\obj\Debug\netcoreapp2.0\MultiplicationTable.AssemblyInfoInputs.cache
+C:\Users\garayt\source\repos\MultiplicationTable\MultiplicationTable\obj\Debug\netcoreapp2.0\MultiplicationTable.AssemblyInfo.cs
+C:\Users\garayt\source\repos\MultiplicationTable\MultiplicationTable\bin\Debug\netcoreapp2.0\MultiplicationTable.deps.json
+C:\Users\garayt\source\repos\MultiplicationTable\MultiplicationTable\bin\Debug\netcoreapp2.0\MultiplicationTable.runtimeconfig.json
+C:\Users\garayt\source\repos\MultiplicationTable\MultiplicationTable\bin\Debug\netcoreapp2.0\MultiplicationTable.runtimeconfig.dev.json
+C:\Users\garayt\source\repos\MultiplicationTable\MultiplicationTable\bin\Debug\netcoreapp2.0\MultiplicationTable.dll
+C:\Users\garayt\source\repos\MultiplicationTable\MultiplicationTable\bin\Debug\netcoreapp2.0\MultiplicationTable.pdb
+C:\Users\garayt\source\repos\MultiplicationTable\MultiplicationTable\obj\Debug\netcoreapp2.0\MultiplicationTable.dll
+C:\Users\garayt\source\repos\MultiplicationTable\MultiplicationTable\obj\Debug\netcoreapp2.0\MultiplicationTable.pdb

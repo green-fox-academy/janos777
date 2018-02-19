@@ -1,0 +1,11 @@
+c:\users\garayt\source\repos\GuessTheNumber\GuessTheNumber\bin\Debug\netcoreapp2.0\GuessTheNumber.deps.json
+c:\users\garayt\source\repos\GuessTheNumber\GuessTheNumber\bin\Debug\netcoreapp2.0\GuessTheNumber.runtimeconfig.json
+c:\users\garayt\source\repos\GuessTheNumber\GuessTheNumber\bin\Debug\netcoreapp2.0\GuessTheNumber.runtimeconfig.dev.json
+c:\users\garayt\source\repos\GuessTheNumber\GuessTheNumber\bin\Debug\netcoreapp2.0\GuessTheNumber.dll
+c:\users\garayt\source\repos\GuessTheNumber\GuessTheNumber\bin\Debug\netcoreapp2.0\GuessTheNumber.pdb
+c:\users\garayt\source\repos\GuessTheNumber\GuessTheNumber\obj\Debug\netcoreapp2.0\GuessTheNumber.csprojResolveAssemblyReference.cache
+c:\users\garayt\source\repos\GuessTheNumber\GuessTheNumber\obj\Debug\netcoreapp2.0\GuessTheNumber.csproj.CoreCompileInputs.cache
+c:\users\garayt\source\repos\GuessTheNumber\GuessTheNumber\obj\Debug\netcoreapp2.0\GuessTheNumber.AssemblyInfoInputs.cache
+c:\users\garayt\source\repos\GuessTheNumber\GuessTheNumber\obj\Debug\netcoreapp2.0\GuessTheNumber.AssemblyInfo.cs
+c:\users\garayt\source\repos\GuessTheNumber\GuessTheNumber\obj\Debug\netcoreapp2.0\GuessTheNumber.dll
+c:\users\garayt\source\repos\GuessTheNumber\GuessTheNumber\obj\Debug\netcoreapp2.0\GuessTheNumber.pdb

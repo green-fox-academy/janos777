@@ -1,0 +1,11 @@
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Factorial\Factorial\obj\Debug\netcoreapp2.0\Factorial.csprojResolveAssemblyReference.cache
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Factorial\Factorial\obj\Debug\netcoreapp2.0\Factorial.csproj.CoreCompileInputs.cache
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Factorial\Factorial\obj\Debug\netcoreapp2.0\Factorial.AssemblyInfoInputs.cache
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Factorial\Factorial\obj\Debug\netcoreapp2.0\Factorial.AssemblyInfo.cs
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Factorial\Factorial\bin\Debug\netcoreapp2.0\Factorial.deps.json
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Factorial\Factorial\bin\Debug\netcoreapp2.0\Factorial.runtimeconfig.json
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Factorial\Factorial\bin\Debug\netcoreapp2.0\Factorial.runtimeconfig.dev.json
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Factorial\Factorial\bin\Debug\netcoreapp2.0\Factorial.dll
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Factorial\Factorial\bin\Debug\netcoreapp2.0\Factorial.pdb
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Factorial\Factorial\obj\Debug\netcoreapp2.0\Factorial.dll
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Factorial\Factorial\obj\Debug\netcoreapp2.0\Factorial.pdb

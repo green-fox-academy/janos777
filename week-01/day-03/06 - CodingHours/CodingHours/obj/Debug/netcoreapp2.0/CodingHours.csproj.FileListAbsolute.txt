@@ -1,0 +1,22 @@
+C:\Users\garayt\source\repos\CodingHours\CodingHours\bin\Debug\netcoreapp2.0\CodingHours.deps.json
+C:\Users\garayt\source\repos\CodingHours\CodingHours\bin\Debug\netcoreapp2.0\CodingHours.runtimeconfig.json
+C:\Users\garayt\source\repos\CodingHours\CodingHours\bin\Debug\netcoreapp2.0\CodingHours.runtimeconfig.dev.json
+C:\Users\garayt\source\repos\CodingHours\CodingHours\bin\Debug\netcoreapp2.0\CodingHours.dll
+C:\Users\garayt\source\repos\CodingHours\CodingHours\bin\Debug\netcoreapp2.0\CodingHours.pdb
+C:\Users\garayt\source\repos\CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.csprojResolveAssemblyReference.cache
+C:\Users\garayt\source\repos\CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.csproj.CoreCompileInputs.cache
+C:\Users\garayt\source\repos\CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.AssemblyInfoInputs.cache
+C:\Users\garayt\source\repos\CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.AssemblyInfo.cs
+C:\Users\garayt\source\repos\CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.dll
+C:\Users\garayt\source\repos\CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.pdb
+c:\Users\garayt\source\repos\06 - CodingHours\CodingHours\bin\Debug\netcoreapp2.0\CodingHours.deps.json
+c:\Users\garayt\source\repos\06 - CodingHours\CodingHours\bin\Debug\netcoreapp2.0\CodingHours.runtimeconfig.json
+c:\Users\garayt\source\repos\06 - CodingHours\CodingHours\bin\Debug\netcoreapp2.0\CodingHours.runtimeconfig.dev.json
+c:\Users\garayt\source\repos\06 - CodingHours\CodingHours\bin\Debug\netcoreapp2.0\CodingHours.dll
+c:\Users\garayt\source\repos\06 - CodingHours\CodingHours\bin\Debug\netcoreapp2.0\CodingHours.pdb
+c:\Users\garayt\source\repos\06 - CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.csprojResolveAssemblyReference.cache
+c:\Users\garayt\source\repos\06 - CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.csproj.CoreCompileInputs.cache
+c:\Users\garayt\source\repos\06 - CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.AssemblyInfoInputs.cache
+c:\Users\garayt\source\repos\06 - CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.AssemblyInfo.cs
+c:\Users\garayt\source\repos\06 - CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.dll
+c:\Users\garayt\source\repos\06 - CodingHours\CodingHours\obj\Debug\netcoreapp2.0\CodingHours.pdb

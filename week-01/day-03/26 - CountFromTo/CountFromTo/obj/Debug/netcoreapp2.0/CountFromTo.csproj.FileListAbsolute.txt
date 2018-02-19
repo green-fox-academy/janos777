@@ -1,0 +1,11 @@
+C:\Users\garayt\source\repos\CountFromTo\CountFromTo\bin\Debug\netcoreapp2.0\CountFromTo.deps.json
+C:\Users\garayt\source\repos\CountFromTo\CountFromTo\bin\Debug\netcoreapp2.0\CountFromTo.runtimeconfig.json
+C:\Users\garayt\source\repos\CountFromTo\CountFromTo\bin\Debug\netcoreapp2.0\CountFromTo.runtimeconfig.dev.json
+C:\Users\garayt\source\repos\CountFromTo\CountFromTo\bin\Debug\netcoreapp2.0\CountFromTo.dll
+C:\Users\garayt\source\repos\CountFromTo\CountFromTo\bin\Debug\netcoreapp2.0\CountFromTo.pdb
+C:\Users\garayt\source\repos\CountFromTo\CountFromTo\obj\Debug\netcoreapp2.0\CountFromTo.csprojResolveAssemblyReference.cache
+C:\Users\garayt\source\repos\CountFromTo\CountFromTo\obj\Debug\netcoreapp2.0\CountFromTo.csproj.CoreCompileInputs.cache
+C:\Users\garayt\source\repos\CountFromTo\CountFromTo\obj\Debug\netcoreapp2.0\CountFromTo.AssemblyInfoInputs.cache
+C:\Users\garayt\source\repos\CountFromTo\CountFromTo\obj\Debug\netcoreapp2.0\CountFromTo.AssemblyInfo.cs
+C:\Users\garayt\source\repos\CountFromTo\CountFromTo\obj\Debug\netcoreapp2.0\CountFromTo.dll
+C:\Users\garayt\source\repos\CountFromTo\CountFromTo\obj\Debug\netcoreapp2.0\CountFromTo.pdb

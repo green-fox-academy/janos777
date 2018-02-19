@@ -1,0 +1,11 @@
+c:\users\garayt\source\repos\SecondsInADay\SecondsInADay\obj\Debug\netcoreapp2.0\SecondsInADay.csprojResolveAssemblyReference.cache
+c:\users\garayt\source\repos\SecondsInADay\SecondsInADay\obj\Debug\netcoreapp2.0\SecondsInADay.csproj.CoreCompileInputs.cache
+c:\users\garayt\source\repos\SecondsInADay\SecondsInADay\obj\Debug\netcoreapp2.0\SecondsInADay.AssemblyInfoInputs.cache
+c:\users\garayt\source\repos\SecondsInADay\SecondsInADay\obj\Debug\netcoreapp2.0\SecondsInADay.AssemblyInfo.cs
+c:\users\garayt\source\repos\SecondsInADay\SecondsInADay\bin\Debug\netcoreapp2.0\SecondsInADay.deps.json
+c:\users\garayt\source\repos\SecondsInADay\SecondsInADay\bin\Debug\netcoreapp2.0\SecondsInADay.runtimeconfig.json
+c:\users\garayt\source\repos\SecondsInADay\SecondsInADay\bin\Debug\netcoreapp2.0\SecondsInADay.runtimeconfig.dev.json
+c:\users\garayt\source\repos\SecondsInADay\SecondsInADay\bin\Debug\netcoreapp2.0\SecondsInADay.dll
+c:\users\garayt\source\repos\SecondsInADay\SecondsInADay\bin\Debug\netcoreapp2.0\SecondsInADay.pdb
+c:\users\garayt\source\repos\SecondsInADay\SecondsInADay\obj\Debug\netcoreapp2.0\SecondsInADay.dll
+c:\users\garayt\source\repos\SecondsInADay\SecondsInADay\obj\Debug\netcoreapp2.0\SecondsInADay.pdb
