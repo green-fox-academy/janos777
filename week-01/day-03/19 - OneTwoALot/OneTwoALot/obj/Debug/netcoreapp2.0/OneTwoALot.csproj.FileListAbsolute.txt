@@ -1,0 +1,11 @@
+c:\users\garayt\source\repos\OneTwoALot\OneTwoALot\obj\Debug\netcoreapp2.0\OneTwoALot.csprojResolveAssemblyReference.cache
+c:\users\garayt\source\repos\OneTwoALot\OneTwoALot\obj\Debug\netcoreapp2.0\OneTwoALot.csproj.CoreCompileInputs.cache
+c:\users\garayt\source\repos\OneTwoALot\OneTwoALot\obj\Debug\netcoreapp2.0\OneTwoALot.AssemblyInfoInputs.cache
+c:\users\garayt\source\repos\OneTwoALot\OneTwoALot\obj\Debug\netcoreapp2.0\OneTwoALot.AssemblyInfo.cs
+c:\users\garayt\source\repos\OneTwoALot\OneTwoALot\bin\Debug\netcoreapp2.0\OneTwoALot.deps.json
+c:\users\garayt\source\repos\OneTwoALot\OneTwoALot\bin\Debug\netcoreapp2.0\OneTwoALot.runtimeconfig.json
+c:\users\garayt\source\repos\OneTwoALot\OneTwoALot\bin\Debug\netcoreapp2.0\OneTwoALot.runtimeconfig.dev.json
+c:\users\garayt\source\repos\OneTwoALot\OneTwoALot\bin\Debug\netcoreapp2.0\OneTwoALot.dll
+c:\users\garayt\source\repos\OneTwoALot\OneTwoALot\bin\Debug\netcoreapp2.0\OneTwoALot.pdb
+c:\users\garayt\source\repos\OneTwoALot\OneTwoALot\obj\Debug\netcoreapp2.0\OneTwoALot.dll
+c:\users\garayt\source\repos\OneTwoALot\OneTwoALot\obj\Debug\netcoreapp2.0\OneTwoALot.pdb

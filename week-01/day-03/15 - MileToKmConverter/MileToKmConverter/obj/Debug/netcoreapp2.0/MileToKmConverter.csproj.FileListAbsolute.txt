@@ -1,0 +1,11 @@
+c:\users\garayt\source\repos\MileToKmConverter\MileToKmConverter\obj\Debug\netcoreapp2.0\MileToKmConverter.csprojResolveAssemblyReference.cache
+c:\users\garayt\source\repos\MileToKmConverter\MileToKmConverter\obj\Debug\netcoreapp2.0\MileToKmConverter.csproj.CoreCompileInputs.cache
+c:\users\garayt\source\repos\MileToKmConverter\MileToKmConverter\obj\Debug\netcoreapp2.0\MileToKmConverter.AssemblyInfoInputs.cache
+c:\users\garayt\source\repos\MileToKmConverter\MileToKmConverter\obj\Debug\netcoreapp2.0\MileToKmConverter.AssemblyInfo.cs
+c:\users\garayt\source\repos\MileToKmConverter\MileToKmConverter\bin\Debug\netcoreapp2.0\MileToKmConverter.deps.json
+c:\users\garayt\source\repos\MileToKmConverter\MileToKmConverter\bin\Debug\netcoreapp2.0\MileToKmConverter.runtimeconfig.json
+c:\users\garayt\source\repos\MileToKmConverter\MileToKmConverter\bin\Debug\netcoreapp2.0\MileToKmConverter.runtimeconfig.dev.json
+c:\users\garayt\source\repos\MileToKmConverter\MileToKmConverter\bin\Debug\netcoreapp2.0\MileToKmConverter.dll
+c:\users\garayt\source\repos\MileToKmConverter\MileToKmConverter\bin\Debug\netcoreapp2.0\MileToKmConverter.pdb
+c:\users\garayt\source\repos\MileToKmConverter\MileToKmConverter\obj\Debug\netcoreapp2.0\MileToKmConverter.dll
+c:\users\garayt\source\repos\MileToKmConverter\MileToKmConverter\obj\Debug\netcoreapp2.0\MileToKmConverter.pdb

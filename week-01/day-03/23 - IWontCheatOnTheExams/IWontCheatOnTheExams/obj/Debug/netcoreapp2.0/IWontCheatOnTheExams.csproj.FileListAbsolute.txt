@@ -1,0 +1,11 @@
+c:\users\garayt\source\repos\IWontCheatOnTheExams\IWontCheatOnTheExams\bin\Debug\netcoreapp2.0\IWontCheatOnTheExams.deps.json
+c:\users\garayt\source\repos\IWontCheatOnTheExams\IWontCheatOnTheExams\bin\Debug\netcoreapp2.0\IWontCheatOnTheExams.runtimeconfig.json
+c:\users\garayt\source\repos\IWontCheatOnTheExams\IWontCheatOnTheExams\bin\Debug\netcoreapp2.0\IWontCheatOnTheExams.runtimeconfig.dev.json
+c:\users\garayt\source\repos\IWontCheatOnTheExams\IWontCheatOnTheExams\bin\Debug\netcoreapp2.0\IWontCheatOnTheExams.dll
+c:\users\garayt\source\repos\IWontCheatOnTheExams\IWontCheatOnTheExams\bin\Debug\netcoreapp2.0\IWontCheatOnTheExams.pdb
+c:\users\garayt\source\repos\IWontCheatOnTheExams\IWontCheatOnTheExams\obj\Debug\netcoreapp2.0\IWontCheatOnTheExams.csprojResolveAssemblyReference.cache
+c:\users\garayt\source\repos\IWontCheatOnTheExams\IWontCheatOnTheExams\obj\Debug\netcoreapp2.0\IWontCheatOnTheExams.csproj.CoreCompileInputs.cache
+c:\users\garayt\source\repos\IWontCheatOnTheExams\IWontCheatOnTheExams\obj\Debug\netcoreapp2.0\IWontCheatOnTheExams.AssemblyInfoInputs.cache
+c:\users\garayt\source\repos\IWontCheatOnTheExams\IWontCheatOnTheExams\obj\Debug\netcoreapp2.0\IWontCheatOnTheExams.AssemblyInfo.cs
+c:\users\garayt\source\repos\IWontCheatOnTheExams\IWontCheatOnTheExams\obj\Debug\netcoreapp2.0\IWontCheatOnTheExams.dll
+c:\users\garayt\source\repos\IWontCheatOnTheExams\IWontCheatOnTheExams\obj\Debug\netcoreapp2.0\IWontCheatOnTheExams.pdb

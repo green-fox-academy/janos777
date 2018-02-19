@@ -1,0 +1,10 @@
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Third\Third\bin\Debug\netcoreapp2.0\Third.deps.json
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Third\Third\bin\Debug\netcoreapp2.0\Third.runtimeconfig.json
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Third\Third\bin\Debug\netcoreapp2.0\Third.runtimeconfig.dev.json
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Third\Third\bin\Debug\netcoreapp2.0\Third.dll
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Third\Third\bin\Debug\netcoreapp2.0\Third.pdb
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Third\Third\obj\Debug\netcoreapp2.0\Third.csproj.CoreCompileInputs.cache
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Third\Third\obj\Debug\netcoreapp2.0\Third.AssemblyInfoInputs.cache
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Third\Third\obj\Debug\netcoreapp2.0\Third.AssemblyInfo.cs
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Third\Third\obj\Debug\netcoreapp2.0\Third.dll
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Third\Third\obj\Debug\netcoreapp2.0\Third.pdb

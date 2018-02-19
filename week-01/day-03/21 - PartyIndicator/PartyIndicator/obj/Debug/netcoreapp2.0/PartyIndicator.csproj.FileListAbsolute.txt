@@ -1,0 +1,22 @@
+c:\users\garayt\source\repos\PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.csprojResolveAssemblyReference.cache
+c:\users\garayt\source\repos\PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.csproj.CoreCompileInputs.cache
+c:\users\garayt\source\repos\PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.AssemblyInfoInputs.cache
+c:\users\garayt\source\repos\PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.AssemblyInfo.cs
+c:\users\garayt\source\repos\PartyIndicator\PartyIndicator\bin\Debug\netcoreapp2.0\PartyIndicator.deps.json
+c:\users\garayt\source\repos\PartyIndicator\PartyIndicator\bin\Debug\netcoreapp2.0\PartyIndicator.runtimeconfig.json
+c:\users\garayt\source\repos\PartyIndicator\PartyIndicator\bin\Debug\netcoreapp2.0\PartyIndicator.runtimeconfig.dev.json
+c:\users\garayt\source\repos\PartyIndicator\PartyIndicator\bin\Debug\netcoreapp2.0\PartyIndicator.dll
+c:\users\garayt\source\repos\PartyIndicator\PartyIndicator\bin\Debug\netcoreapp2.0\PartyIndicator.pdb
+c:\users\garayt\source\repos\PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.dll
+c:\users\garayt\source\repos\PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.pdb
+c:\Users\garayt\source\repos\21 - PartyIndicator\PartyIndicator\bin\Debug\netcoreapp2.0\PartyIndicator.deps.json
+c:\Users\garayt\source\repos\21 - PartyIndicator\PartyIndicator\bin\Debug\netcoreapp2.0\PartyIndicator.runtimeconfig.json
+c:\Users\garayt\source\repos\21 - PartyIndicator\PartyIndicator\bin\Debug\netcoreapp2.0\PartyIndicator.runtimeconfig.dev.json
+c:\Users\garayt\source\repos\21 - PartyIndicator\PartyIndicator\bin\Debug\netcoreapp2.0\PartyIndicator.dll
+c:\Users\garayt\source\repos\21 - PartyIndicator\PartyIndicator\bin\Debug\netcoreapp2.0\PartyIndicator.pdb
+c:\Users\garayt\source\repos\21 - PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.csprojResolveAssemblyReference.cache
+c:\Users\garayt\source\repos\21 - PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.csproj.CoreCompileInputs.cache
+c:\Users\garayt\source\repos\21 - PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.AssemblyInfoInputs.cache
+c:\Users\garayt\source\repos\21 - PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.AssemblyInfo.cs
+c:\Users\garayt\source\repos\21 - PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.dll
+c:\Users\garayt\source\repos\21 - PartyIndicator\PartyIndicator\obj\Debug\netcoreapp2.0\PartyIndicator.pdb
