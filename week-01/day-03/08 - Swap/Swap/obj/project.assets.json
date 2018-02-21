@@ -674,11 +674,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\Users\\garayt\\source\\repos\\08 - Swap\\Swap\\Swap.csproj",
+      "projectUniqueName": "C:\\Users\\garayt\\greenfox\\janos777\\week-01\\day-03\\08 - Swap\\Swap\\Swap.csproj",
       "projectName": "Swap",
-      "projectPath": "c:\\Users\\garayt\\source\\repos\\08 - Swap\\Swap\\Swap.csproj",
+      "projectPath": "C:\\Users\\garayt\\greenfox\\janos777\\week-01\\day-03\\08 - Swap\\Swap\\Swap.csproj",
       "packagesPath": "C:\\Users\\garayt\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\garayt\\source\\repos\\08 - Swap\\Swap\\obj\\",
+      "outputPath": "C:\\Users\\garayt\\greenfox\\janos777\\week-01\\day-03\\08 - Swap\\Swap\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

@@ -1,0 +1,11 @@
+C:\Users\garayt\greenfox\janos777\week-02\day-02\strings02\strings02\bin\Debug\netcoreapp2.0\strings02.deps.json
+C:\Users\garayt\greenfox\janos777\week-02\day-02\strings02\strings02\bin\Debug\netcoreapp2.0\strings02.runtimeconfig.json
+C:\Users\garayt\greenfox\janos777\week-02\day-02\strings02\strings02\bin\Debug\netcoreapp2.0\strings02.runtimeconfig.dev.json
+C:\Users\garayt\greenfox\janos777\week-02\day-02\strings02\strings02\bin\Debug\netcoreapp2.0\strings02.dll
+C:\Users\garayt\greenfox\janos777\week-02\day-02\strings02\strings02\bin\Debug\netcoreapp2.0\strings02.pdb
+C:\Users\garayt\greenfox\janos777\week-02\day-02\strings02\strings02\obj\Debug\netcoreapp2.0\strings02.csprojResolveAssemblyReference.cache
+C:\Users\garayt\greenfox\janos777\week-02\day-02\strings02\strings02\obj\Debug\netcoreapp2.0\strings02.csproj.CoreCompileInputs.cache
+C:\Users\garayt\greenfox\janos777\week-02\day-02\strings02\strings02\obj\Debug\netcoreapp2.0\strings02.AssemblyInfoInputs.cache
+C:\Users\garayt\greenfox\janos777\week-02\day-02\strings02\strings02\obj\Debug\netcoreapp2.0\strings02.AssemblyInfo.cs
+C:\Users\garayt\greenfox\janos777\week-02\day-02\strings02\strings02\obj\Debug\netcoreapp2.0\strings02.dll
+C:\Users\garayt\greenfox\janos777\week-02\day-02\strings02\strings02\obj\Debug\netcoreapp2.0\strings02.pdb
