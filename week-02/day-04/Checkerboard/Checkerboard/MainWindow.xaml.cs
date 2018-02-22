@@ -26,10 +26,38 @@ namespace Checkerboard
             var foxDraw = new FoxDraw(canvas);
             // Fill the canvas with a checkerboard pattern.
 
+            int size = 40;
+            int x = 0;
+            int y = 0;
+            string colorString;
 
+            var C = new string[] { "Black", "White" };
 
+            for (int i = 0; i < (Width / size); i++)
+            {
+                x = size * i;
 
+                for (int j = 0; j < (Height / size); j++)
+                {
+                    y = size * j;
 
+                    colorString = C[((j % 2) + (i % 2)) % 2];
+
+                    Rectangle(x, y, size, colorString);
+                }
+            }
+        }
+
+        public void Rectangle(int x, int y, int size, string colorString)
+        {
+            InitializeComponent();
+            var foxDraw = new FoxDraw(canvas);
+
+            Color color = (Color)ColorConverter.ConvertFromString(colorString);
+
+            foxDraw.FillColor(color);
+
+            foxDraw.DrawRectangle(x, y, size, size);
         }
     }
 }

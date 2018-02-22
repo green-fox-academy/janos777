@@ -21,7 +21,7 @@ namespace Rainbow_boxes
     public partial class MainWindow : Window
     {
         int z = 10; //visible width of the squares (on one side)
-        int X;
+        int size;
         int q;
         string colorString;
 
@@ -36,32 +36,25 @@ namespace Rainbow_boxes
 
             string[] C = new string[] { "Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet" };
 
-            List<string> CList = new List<string>();
-
-            for (int i = 0; i < (Width / 2 / z); i++)
-            {
-                CList.Add(C[i % C.Length]);
-            }
-
             for (q = 1; q < Convert.ToInt32(Height) / z; q++)
             {
-                X = Convert.ToInt32(Height);
-                X = X + z - (q * z);
+                size = Convert.ToInt32(Height);
+                size = size + z - (q * z);
 
-                if (0 < X)
+                if (0 < size)
                 {
                     colorString = C[(q - 1) % C.Length];
                 }
                 else
                 {
-                    X = X + z;
+                    size = size + z;
                     colorString = C[q];
                 }
-                SquareDrawing(X, colorString);
+                SquareDrawing(size, colorString);
             }
         }
 
-        public void SquareDrawing(int X, string colorString)
+        public void SquareDrawing(int size, string colorString)
         {
             InitializeComponent();
             var foxDraw = new FoxDraw(canvas);
@@ -70,7 +63,7 @@ namespace Rainbow_boxes
 
             foxDraw.FillColor(color);
 
-            foxDraw.DrawRectangle((q * z) / 2, (q * z) / 2, X, X);
+            foxDraw.DrawRectangle((q * z) / 2, (q * z) / 2, size, size);
         }
     }
 }
