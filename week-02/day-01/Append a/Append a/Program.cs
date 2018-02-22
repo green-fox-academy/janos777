@@ -14,6 +14,7 @@ namespace AppendAFunc
             string am = "kuty";
 
             Console.WriteLine(AppendA(am));
+            Console.WriteLine(2 + "nd week at Green Fox");
             Console.ReadLine();
         }
 

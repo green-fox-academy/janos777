@@ -23,16 +23,16 @@ namespace SolarSystem
             Console.ReadLine();
         }
 
-        public static string PutSaturn(List<string> input)
+        public static string PutSaturn(List<string> planets)
         {
-            input.Add("Saturn");
+            planets.Add("Saturn");
 
-            for (int i = 0; i < input.Count; i++)
+            for (int i = 0; i < planets.Count; i++)
             {
-                input[i] = " \"" + input[i] + "\"";
+                planets[i] = $"\"{planets[i]}\"";
             }
 
-            string output = string.Join(", ", input);
+            string output = String.Join(", ", planets);
 
             return output;
         }
