@@ -37,16 +37,17 @@ namespace Starry_night
             canvas.Height = 600;
             canvas.Background = new SolidColorBrush(Colors.Black);
 
+            var r = new Random();
+
             for (int i = 0; i < 20; i++)
             {
-                Random r = new Random();
                 double x = r.Next(0, (Convert.ToInt32(canvas.Width)) - squareSize);
+                double y = r.Next(0, (Convert.ToInt32(canvas.Height)) - squareSize);
 
-                Thread.Sleep(100);
-                Random s = new Random();
-                double y = s.Next(0, (Convert.ToInt32(canvas.Height)) - squareSize);
+                Console.WriteLine(x);
+                Console.WriteLine(y);
 
-                int c = s.Next(0, 255);
+                int c = r.Next(0, 255);
                 byte cByte = Convert.ToByte(c);
                 Color color = new Color();
                 color = Color.FromRgb(cByte, cByte, cByte);
