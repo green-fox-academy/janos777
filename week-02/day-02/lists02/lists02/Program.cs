@@ -28,19 +28,19 @@ namespace Matchmaking
             {
                 for (int i = 0; i < input1.Count - 1; i++)
                 {
-                    output.Add("\"" + input1[i] + "\", \"" + input2[i] + "\"");
+                    output.Add($"\"{input1[i]}\", \"{input2[i]}\"");
                 }
-                output.Add("\"" + input1[input1.Count - 1] + "\"");
-                outputString = string.Join(", ", output);
+                output.Add($"\"{input1[input1.Count - 1]}\"");
+                outputString = String.Join(", ", output);
             }
             else
             {
                 for (int i = 0; i < input2.Count - 1; i++)
                 {
-                    output.Add("\"" + input2[i] + "\", \"" + input1[i] + "\"");
+                    output.Add($"\"{input2[i]}\", \"{input1[i]}\"");
                 }
-                output.Add("\"" + input2[input2.Count-1] + "\"");
-                outputString = string.Join(", ", output);
+                output.Add($"\"{input2[input2.Count-1]}\"");
+                outputString = String.Join(", ", output);
             }
             return outputString;
         }

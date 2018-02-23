@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Rainbow_boxes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="600" Width="600">
     <Grid>
-        <Canvas  Name="canvas"/>
+        <Canvas  Name="canvas" Width="600" Height="600"/>
     </Grid>
 </Window>

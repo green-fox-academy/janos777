@@ -24,9 +24,9 @@ namespace AppendLetter
 
             for (int i = 0; i < inputArray.Length; i++)
             {
-                inputArray[i] = "\"" + inputArray[i] + "a\"";
+                inputArray[i] = $"\"{inputArray[i]}a\"";
             }
-            outputString = string.Join(", ", inputArray);
+            outputString = String.Join(", ", inputArray);
 
             return outputString;
         }

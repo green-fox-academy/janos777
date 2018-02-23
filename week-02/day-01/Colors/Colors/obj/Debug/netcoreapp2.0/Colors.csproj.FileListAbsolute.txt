@@ -8,3 +8,4 @@ C:\Users\garayt\greenfox\janos777\week-02\day-01\Colors\Colors\bin\Debug\netcore
 C:\Users\garayt\greenfox\janos777\week-02\day-01\Colors\Colors\bin\Debug\netcoreapp2.0\Colors.pdb
 C:\Users\garayt\greenfox\janos777\week-02\day-01\Colors\Colors\obj\Debug\netcoreapp2.0\Colors.dll
 C:\Users\garayt\greenfox\janos777\week-02\day-01\Colors\Colors\obj\Debug\netcoreapp2.0\Colors.pdb
+C:\Users\garayt\greenfox\janos777\week-02\day-01\Colors\Colors\obj\Debug\netcoreapp2.0\Colors.csprojResolveAssemblyReference.cache

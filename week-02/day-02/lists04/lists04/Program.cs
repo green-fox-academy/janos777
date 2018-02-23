@@ -43,9 +43,9 @@ namespace CandyShop
 
             for (int i = 0; i < inputArray.Length; i++)
             {
-                inputArray[i] = "\"" + inputArray[i] + "\"";
+                inputArray[i] = $"\"{inputArray[i]}\"";
             }
-            outputString = string.Join(", ", inputArray);
+            outputString = String.Join(", ", inputArray);
 
             return outputString;
         }

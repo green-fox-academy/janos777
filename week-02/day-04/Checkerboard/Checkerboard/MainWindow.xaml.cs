@@ -41,7 +41,7 @@ namespace Checkerboard
                 {
                     y = size * j;
 
-                    colorString = C[((j % 2) + (i % 2)) % 2];
+                    colorString = C[((i % 2) + (j % 2)) % 2];
 
                     Rectangle(x, y, size, colorString);
                 }

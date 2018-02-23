@@ -36,20 +36,12 @@ namespace Rainbow_boxes
 
             string[] C = new string[] { "Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet" };
 
-            for (q = 1; q < Convert.ToInt32(Height) / z; q++)
+            for (q = 0; q < (int)Height / z; q++)
             {
-                size = Convert.ToInt32(Height);
+                size = (int)Height;
                 size = size + z - (q * z);
 
-                if (0 < size)
-                {
-                    colorString = C[(q - 1) % C.Length];
-                }
-                else
-                {
-                    size = size + z;
-                    colorString = C[q];
-                }
+                colorString = C[q % C.Length];
                 SquareDrawing(size, colorString);
             }
         }
