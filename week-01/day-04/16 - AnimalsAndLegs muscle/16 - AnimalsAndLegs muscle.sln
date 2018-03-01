@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 - AnimalsAndLegs muscle", "16 - AnimalsAndLegs muscle\16 - AnimalsAndLegs muscle.csproj", "{D4EF9BFC-8136-43EF-B0A9-EFEFFE6ADCCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4EF9BFC-8136-43EF-B0A9-EFEFFE6ADCCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EF9BFC-8136-43EF-B0A9-EFEFFE6ADCCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EF9BFC-8136-43EF-B0A9-EFEFFE6ADCCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EF9BFC-8136-43EF-B0A9-EFEFFE6ADCCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F4BC1DC-B538-4013-B5FE-9B53ECA81763}
+	EndGlobalSection
+EndGlobal

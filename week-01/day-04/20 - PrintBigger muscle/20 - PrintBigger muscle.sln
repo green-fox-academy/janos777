@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 - PrintBigger muscle", "20 - PrintBigger muscle\20 - PrintBigger muscle.csproj", "{918DE95E-8941-469C-968E-8722EE3F9970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{918DE95E-8941-469C-968E-8722EE3F9970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918DE95E-8941-469C-968E-8722EE3F9970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918DE95E-8941-469C-968E-8722EE3F9970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918DE95E-8941-469C-968E-8722EE3F9970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BEB3031-9F15-4E29-9BD1-CA93CBF8D409}
+	EndGlobalSection
+EndGlobal
