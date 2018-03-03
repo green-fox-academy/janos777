@@ -16,7 +16,7 @@ namespace Counter
 
             Counter count = new Counter();
 
-            Console.WriteLine(count.Value);
+            Console.WriteLine(count.CurrentValue);
             Console.WriteLine(count.Add(10));
             Console.WriteLine(count.Add());
             Console.WriteLine(count.Get());

@@ -6,29 +6,31 @@ namespace Counter
 {
     class Counter
     {
-        public int Value;
+        public int DefaultValue;
+        public int CurrentValue;
         public string stringValue;
 
-        public Counter(int Value = 0)
+        public Counter(int DefaultValue = 0)
         {
-            this.Value = Value;
+            this.DefaultValue = DefaultValue;
+            CurrentValue = DefaultValue;
         }
 
         public int Add(int number)
         {
-            return Value = Value + number;
+            return CurrentValue = CurrentValue + number;
         }
         public int Add()
         {
-            return Value += 1;
+            return CurrentValue += 1;
         }
         public string Get()
         {
-            return stringValue = Value.ToString();
+            return stringValue = CurrentValue.ToString();
         }
         public int Reset()
         {
-            return Value = 0;
+            return CurrentValue = DefaultValue;
         }
 
 

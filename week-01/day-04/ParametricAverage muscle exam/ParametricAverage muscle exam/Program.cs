@@ -6,12 +6,16 @@ namespace GreenFox
     {
         static void Main(string[] args)
         {
-            // Write a program that asks for 5 integers in a row,
-            // then it should print the sum and the average of these numbers like:
+            // Write a program that asks for a number.
+            // It would ask this many times to enter an integer,
+            // if all the integers are entered, it should print the sum and average of these
+            // integers like:
             //
             // Sum: 22, Average: 4.4
 
-            int n = 5;
+            Console.WriteLine("How many numbers do you want to calculate with?");
+            int n = int.Parse(Console.ReadLine());
+
             int[] numbers = new int[n];
 
             for (int i = 0; i < n; i++)
