@@ -14,8 +14,8 @@ namespace DoubleItems
 
             for (int i = 0; i < ag.Length; i++)
             {
-                int number = (ag[i] * 2);
-                Console.Write(number + " ");
+                ag[i] = ag[i] * 2;
+                Console.Write(ag[i] + ", ");
             }
             Console.ReadLine();
         }
