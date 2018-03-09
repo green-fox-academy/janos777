@@ -23,6 +23,5 @@ namespace Comparator
         {
             return Completed.CompareTo(((Thing)obj).Completed);
         }
-
     }
 }

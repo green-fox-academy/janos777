@@ -66,5 +66,35 @@ namespace TestAnagram
 
             Assert.AreEqual(true, checkanagram.IsAnagram(first, second));
         }
+
+        [TestCase]
+        public void stringsWithDifferentAmountOfSameLetters()
+        {
+            string first = "fiirst";
+            string second = "firrst";
+            var checkanagram = new AnagramCheck();
+
+            Assert.AreEqual(false, checkanagram.IsAnagram(first, second));
+        }
+
+        [TestCase]
+        public void stringsWithSpaces()
+        {
+            string first = "first ";
+            string second = "fir st";
+            var checkanagram = new AnagramCheck();
+
+            Assert.AreEqual(true, checkanagram.IsAnagram(first, second));
+        }
+
+        [TestCase]
+        public void stringsWithNumbers()
+        {
+            string first = "first1";
+            string second = "2first";
+            var checkanagram = new AnagramCheck();
+
+            Assert.AreEqual(false, checkanagram.IsAnagram(first, second));
+        }
     }
 }
