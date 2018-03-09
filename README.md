@@ -6,5 +6,6 @@
 
 [janos777 / patchwork](https://github.com/janos777/patchwork)
 
-[janos777 / 
-git-lesson-repository](https://github.com/janos777/git-lesson-repository)[janos777 / todo-app](https://github.com/janos777/todo-app)
+[janos777 / git-lesson-repository](https://github.com/janos777/git-lesson-repository)
+
+[janos777 / todo-app](https://github.com/janos777/todo-app)
