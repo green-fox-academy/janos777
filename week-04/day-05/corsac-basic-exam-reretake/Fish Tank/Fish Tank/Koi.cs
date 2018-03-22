@@ -6,19 +6,14 @@ namespace FishTank
 {
     class Koi : Fish
     {
-        public Koi(string name, int weight, string color) : base(name, weight, color)
+        public Koi(string name, int weight, string color) : base(name, weight, color, 2)
         {
 
-        }
-
-        public override int Feed()
-        {
-            return Weight += 2;
         }
 
         public override string Status()
         {
-            return $"{Name}, weight: {Weight}, color {Color}";
+            return base.Status();
         }
     }
 }

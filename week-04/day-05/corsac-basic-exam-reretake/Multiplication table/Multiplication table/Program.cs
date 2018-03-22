@@ -25,12 +25,23 @@ namespace MultiplicationTable
             Console.WriteLine("Please provide the base number for the multiplication table: ");
             int baseNumber = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= 10; i++)
-            {
-                Console.WriteLine($"{i} * {baseNumber} = {i * baseNumber}");
-            }
+            Console.WriteLine();
+
+            Console.WriteLine(GetMultiplicationTable(baseNumber));
 
             Console.ReadLine();
+        }
+
+        public static string GetMultiplicationTable(int n)
+        {
+            string table = "";
+
+            for (int i = 1; i <= 10; i++)
+            {
+                table += $"{i} * {n} = {i * n}\n";
+            }
+
+            return table;
         }
     }
 }

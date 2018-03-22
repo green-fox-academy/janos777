@@ -6,21 +6,16 @@ namespace FishTank
 {
     class Tang : Fish
     {
-        public bool ShortTermMemoryLoss;
+        private bool ShortTermMemoryLoss;
 
-        public Tang(string name, int weight, string color, bool shortTermMemoryLoss) : base(name, weight, color)
+        public Tang(string name, int weight, string color, bool shortTermMemoryLoss) : base(name, weight, color, 1)
         {
             ShortTermMemoryLoss = shortTermMemoryLoss;
         }
 
-        public override int Feed()
-        {
-            return Weight++;
-        }
-
         public override string Status()
         {
-            return $"{Name}, weight: {Weight}, color {Color}, short-term memory loss: {ShortTermMemoryLoss}";
+            return base.Status() + $", short-term memory loss: {ShortTermMemoryLoss}";
         }
     }
 }

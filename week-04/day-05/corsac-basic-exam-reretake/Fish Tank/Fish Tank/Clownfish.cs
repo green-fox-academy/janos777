@@ -6,21 +6,16 @@ namespace FishTank
 {
     class Clownfish : Fish
     {
-        public string StripeColor;
+        private string StripeColor;
 
-        public Clownfish(string name, int weight, string color, string stripeColor) : base (name, weight, color)
+        public Clownfish(string name, int weight, string color, string stripeColor) : base (name, weight, color, 1)
         {
             StripeColor = stripeColor;
         }
 
-        public override int Feed()
-        {
-            return Weight++;
-        }
-
         public override string Status()
         {
-            return $"{Name}, weight: {Weight}, color {Color}, stripe color: {StripeColor}";
+            return base.Status() + $", stripe color: {StripeColor}";
         }
     }
 }

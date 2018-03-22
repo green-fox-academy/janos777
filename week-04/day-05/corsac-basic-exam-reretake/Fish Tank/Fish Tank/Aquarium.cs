@@ -22,7 +22,7 @@ namespace FishTank
                 aquariumStatus.Add(fish.Status());
             }
 
-            return string.Join("\n", aquariumStatus);
+            return string.Join('\n', aquariumStatus);
         }
 
         public void Feed()
@@ -40,13 +40,37 @@ namespace FishTank
 
         public void RemoveOversizedFishes()
         {
+            var removableIndices = new List<int>();
+
             for (int i = 0; i < Fishes.Count; i++)
             {
                 if (Fishes[i].Weight >= 11)
                 {
-                    Fishes.Remove(Fishes[i]);
+                    removableIndices.Add(i);
                 }
             }
+
+            removableIndices.Reverse();
+
+            foreach (var index in removableIndices)
+            {
+                Fishes.RemoveAt(index);
+            }
+        }
+
+        public void RemoveOversizedFishes2()
+        {
+            var notOversizedFishes = new List<Fish>();
+
+            for (int i = 0; i < Fishes.Count; i++)
+            {
+                if (Fishes[i].Weight < 11)
+                {
+                    notOversizedFishes.Add(Fishes[i]);
+                }
+            }
+
+            Fishes = notOversizedFishes;
         }
     }
 }

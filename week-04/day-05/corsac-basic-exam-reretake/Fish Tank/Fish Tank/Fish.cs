@@ -6,19 +6,28 @@ namespace FishTank
 {
     abstract class Fish
     {
-        public string Name;
-        public int Weight;
-        public string Color;
+        private string Name;
+        public int Weight { get; private set; }
+        private string Color;
+        private int FoodAmount;
 
-        public Fish(string name, int weight, string color)
+        public Fish(string name, int weight, string color, int foodAmount)
         {
             Name = name;
             Weight = weight;
             Color = color;
+            FoodAmount = foodAmount;
         }
 
-        public abstract int Feed();
+        public void Feed()
+        {
+            Weight += FoodAmount;
+        }
 
-        public abstract string Status();
+
+        public virtual string Status()
+        {
+            return $"{Name}, weight: {Weight}, color {Color}";
+        }
     }
 }
