@@ -15,108 +15,46 @@ namespace BankOfSimba.Controllers
         // GET: /<controller>/
 
         [Route("simba")]
+        [HttpGet]
         public IActionResult Simba()
         {
-            var bankAccountSimba = new BankAccount("Simba", 2000, "Animal.Lion", true);
+            var bankAccountSimba = new BankAccount("Simba", 2000, "Animal.Lion", true, true);
 
             return View(bankAccountSimba);
         }
 
+        [HttpGet]
         [Route("all")]
         public IActionResult All()
         {
-            List<BankAccount> allBankAccounts = new List<BankAccount>();
-
-            allBankAccounts.Add(new BankAccount("Simba", 2000, "Animal.Lion", true));
-            allBankAccounts.Add(new BankAccount("Nala", 1000, "Animal.Lion", false));
-            allBankAccounts.Add(new BankAccount("Mufasa", 400, "Animal.Lion", false));
-            allBankAccounts.Add(new BankAccount("Rafiki", 2200, "Animal.Mandrill", false));
-            allBankAccounts.Add(new BankAccount("Timon", 1200, "Animal.Meerkat", false));
-            allBankAccounts.Add(new BankAccount("Pumbaa", 900, "Animal.Warthog", false));
-
-            return View(allBankAccounts);
-
-
-
-            /*
-            var bankAccountSimba = new BankAccount("Simba", 2000, "Animal.Lion");
-            var bankAccountNala = new BankAccount("Nala", 1000, "Animal.Lion");
-            var bankAccountMufasa = new BankAccount("Mufasa", 400, "Animal.Lion");
-            var bankAccountRafiki = new BankAccount("Rafiki", 2200, "Animal.Mandrill");
-            var bankAccountTimon = new BankAccount("Timon", 1200, "Animal.Meerkat");
-            var bankAccountPumbaa = new BankAccount("Pumbaa", 900, "Animal.Warthog");
-
-            List<BankAccount> allBankAccounts = new List<BankAccount>();
-
-            allBankAccounts.Add(bankAccountSimba);
-            allBankAccounts.Add(bankAccountNala);
-            allBankAccounts.Add(bankAccountMufasa);
-            allBankAccounts.Add(bankAccountRafiki);
-            allBankAccounts.Add(bankAccountTimon);
-            allBankAccounts.Add(bankAccountPumbaa);
-
-            return View(allBankAccounts);
-            */
-
-            /*
-            if (allBankAccounts.Count > 1)
+            return View(BankAccount.allBankAccounts);
+        }
+        
+        [HttpPost]
+        [Route("/addmoney/{name}")]
+        public IActionResult AddMoney(string name)
+        {
+            foreach (var bankAccount in BankAccount.allBankAccounts)
             {
-                for (int i = 0; i < allBankAccounts.Count; i++)
+                if (bankAccount.Name.Equals(name))
                 {
-                    return View(allBankAccounts[i]);
+                    bankAccount.AddMoney();
                 }
             }
 
-            else
-            {
-                return View(bankAccountSimba);
-            }
-            */
+            return RedirectToAction("All");
+        }
 
-            /*
-            @model BankOfSimba.Models.BankAccount
-            <!DOCTYPE HTML>
-            <html xmlns:th="http://www.thymeleaf.org">
-            <head>
-            <title>Getting Started: Serving Web Content</title>
-            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-            </head>
-            <body>
-            <p><strong>Name:</strong> @Model.Name</p>
-            <p><strong>Balance:</strong> @Model.Balance.ToString("0.00") @Model.Currency</p>
-            <p><strong>Animal type:</strong> @Model.AnimalType</p>
-            </body>
-            </html>
-            */
+        [HttpPost]
+        [Route("add")]
+        public IActionResult Add(string name, int balance, string animalType, string kingFromUser, string goodguyFromUser)
+        {
+            bool king = Convert.ToBoolean(kingFromUser);
+            bool goodguy = Convert.ToBoolean(goodguyFromUser);
 
-            /*
-             *     th, td {
-            border: 2px solid black;
-            padding: 10px;
-            ${King} == 'true' ? <span style="background-color:red" >;
+            BankAccount.allBankAccounts.Add(new BankAccount(name, balance, animalType, king, goodguy));
 
-            {% if King == 'true' % <span style="background-color: red">
-
-
-            if King == 'true'
-            return style="background-color: red"
-
-            return style="background-color: red" {% if King == 'true' %};
-
-            if King ==
-
-                if sourcedata.orderamount < 2000 and sourcedata.orderamount >= 1000
-            return 'style="color:green"'
-            endif
-            }
-            */
-
-            /*
-             @if (d.King == true)
-             @{
-                <td>style="background-color: red" </td>;
-            }
-            */
+            return RedirectToAction("All");
         }
     }
 }

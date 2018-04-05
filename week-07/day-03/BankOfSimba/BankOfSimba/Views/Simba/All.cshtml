@@ -22,16 +22,42 @@
         <th>Balance </th>
         <th>Animal type </th>
         <th>King? </th>
+        <th>GoodGuy? </th>
+        <th>AddMoney</th>
     </tr>
 
     @foreach (var d in Model)
     {
-        <tr>
-            <td>@Model.ToList().IndexOf(d)</td>
-            <td>@d.Name</td>
-            <td>@d.Balance.ToString("0.00") @d.Currency</td>
-            <td>@d.AnimalType</td>
-            <td>@d.King</td>
-        </tr>
+        string backGroundColor = d.King ? "red" : "white";
+        string goodGuy = d.GoodGuy ? "good guy" : "bad guy";
+        string textColor = d.GoodGuy ? "orange" : "darkblue";
+
+    <tr>
+        <td>@Model.ToList().IndexOf(d)</td>
+        <td>@d.Name</td>
+        <td>@d.Balance.ToString("0.00") @d.Currency</td>
+        <td>@d.AnimalType</td>
+        <td style="background-color : @backGroundColor">@d.King</td>
+        <td style="color : @textColor">@goodGuy</td>
+        <td>
+            <form action="/addmoney/@d.Name" method="post">
+            <input type="submit" value="AddMoney"/>
+            </form>
+        </td>
+    </tr>
     }
 </table>
+
+<form action="add" method="POST" role="form">
+    <legend>Add new bank account</legend>
+
+    <div class="form-group">
+        <label for=""></label>
+        <input type="text" class="form-control" name="name" placeholder="Name">
+        <input type="text" class="form-control" name="balance" placeholder="Balance">
+        <input type="text" class="form-control" name="animalType" placeholder="AnimalType">
+        <input type="text" class="form-control" name="king?" placeholder="King?">
+        <input type="text" class="form-control" name="goodguy?" placeholder="GoodGuy?">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
