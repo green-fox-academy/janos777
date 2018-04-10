@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ListingTodos.Model.Todo>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <style>
+    </style>
+
+    <h1>Todos for today</h1>
+
+    @foreach (var d in Model)
+    {
+        <ul>
+            <li>d.Title</li>
+        </ul>
+    }
+
+    <table class="table table-bordered table-responsive table-hover">
+        <tr>
+            <th>ID </th>
+            <th>Action </th>
+            <th>Urgent? </th>
+            <th>Done? </th>
+        </tr>
+
+        @foreach (var d in Model)
+        {
+            <tr>
+                <td>@d.Id</td>
+                <td>@d.Title</td>
+                <td>@d.IsUrgent</td>
+                <td>@d.IsDone</td>
+            </tr>
+        }
+    </table>
+
+
+    <form action="add" method="POST" role="form">
+        <legend>Add new Todo</legend>
+
+        <div class="form-group">
+            <label for=""></label>
+            <input type="text" class="form-control" name="Title" placeholder="Title">
+            <input type="text" class="form-control" name="Urgent?" placeholder="False">
+            <input type="text" class="form-control" name="Done?" placeholder="False">
+        </div>
+        <button type="submit" class="btn btn-primary">Add new ToDo</button>
+    </form>
+
+</body>
+</html>
