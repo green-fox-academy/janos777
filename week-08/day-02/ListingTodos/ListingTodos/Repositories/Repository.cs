@@ -1,9 +1,7 @@
 ﻿using ListingTodos.Model;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace ListingTodos.Repositories
 {
@@ -16,9 +14,9 @@ namespace ListingTodos.Repositories
             _context = context;
         }
 
-        public void Create(string title)
+        public void Create(string title, bool isUrgent, bool isDone)
         {
-            _context.Add(new Todo { Title = title });
+            _context.Add(new Todo { Title = title, IsUrgent = isUrgent, IsDone = isDone });
             _context.SaveChanges();
         }
 
@@ -27,16 +25,30 @@ namespace ListingTodos.Repositories
             return _context.Todos.ToList();
         }
 
-        public void Update(Todo todo)
+        public List<Todo> Read(bool isActive)
         {
-            _context.Update(todo);
+            return _context.Todos.Where(t => t.IsDone != isActive).ToList();
+        }
+
+        public void Update(int id, string title, string isUrgent, string isDone)
+        {
+            Todo todo = _context.Todos.FirstOrDefault(t => t.Id == id);
+            todo.Title = title ?? todo.Title;
+            todo.IsUrgent = (isUrgent == "on") ? true : false;
+            todo.IsDone = (isDone == "on") ? true : false;
             _context.SaveChanges();
         }
 
-        public void Delete(Todo todo)
+        public void Delete(int id)
         {
+            Todo todo = _context.Todos.FirstOrDefault(t => t.Id == id);
             _context.Remove(todo);
             _context.SaveChanges();
+        }
+
+        public Todo SelectRow(int id)
+        {
+            return _context.Todos.FirstOrDefault(t => t.Id == id);
         }
     }
 }

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using ListingTodos.Model;
+﻿using Microsoft.AspNetCore.Mvc;
 using ListingTodos.Repositories;
+using ListingTodos.Model;
 
 namespace ListingTodos.Controllers
 {
@@ -19,21 +15,43 @@ namespace ListingTodos.Controllers
         }
 
         [Route("list")]
-        [HttpGet]
         public IActionResult List()
         {
             return View(_repository.Read());
         }
 
-        /*
-        [Route("add")]
-        [HttpPost]
-        public IActionResult add(string title)
+        [Route("list/{isActive}")]
+        public IActionResult List(bool isActive)
         {
-            TodoContext.Todos.Add(new Todo());
+            return View(_repository.Read(isActive));
+        }
+
+        [Route("add")]
+        public IActionResult Add(string title, bool isUrgent, bool isDone)
+        {
+            _repository.Create(title, isUrgent, isDone);
 
             return RedirectToAction("list");
         }
-        */
+
+        [Route("{Id}/edit")]
+        public IActionResult Edit([FromRoute] int id)
+        {
+            return View(_repository.SelectRow(id));
+        }
+
+        [Route("{Id}/update")]
+        public IActionResult Update(int id, string title, string isUrgent, string isDone)
+        {
+            _repository.Update(id, title, isUrgent, isDone);
+            return RedirectToAction("list");
+        }
+
+        [Route("{Id}/delete")]
+        public IActionResult Delete([FromRoute] int id)
+        {
+            _repository.Delete(id);
+            return RedirectToAction("list");
+        }
     }
 }

@@ -1,16 +1,15 @@
 ﻿using ListingTodos.Model;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ListingTodos.Repositories
 {
     public interface IRepository
     {
-        void Create(string title);
+        void Create(string title, bool isUrgent, bool isDone);
         List<Todo> Read();
-        void Update(Todo todo);
-        void Delete(Todo todo);
+        List<Todo> Read(bool isActive);
+        void Update(int Id, string Title, string isUrgent, string isDone);
+        void Delete(int Id);
+        Todo SelectRow(int id);
     }
 }

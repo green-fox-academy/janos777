@@ -2,53 +2,82 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <title></title>
 </head>
 <body>
 
-    <style>
-    </style>
+    <div class="container-fluid" style="text-align: center">
+        <h1>Todos for today:</h1>
+    </div>
 
-    <h1>Todos for today</h1>
-
-    @foreach (var d in Model)
-    {
-        <ul>
-            <li>d.Title</li>
-        </ul>
-    }
-
-    <table class="table table-bordered table-responsive table-hover">
-        <tr>
-            <th>ID </th>
-            <th>Action </th>
-            <th>Urgent? </th>
-            <th>Done? </th>
-        </tr>
-
-        @foreach (var d in Model)
-        {
-            <tr>
-                <td>@d.Id</td>
-                <td>@d.Title</td>
-                <td>@d.IsUrgent</td>
-                <td>@d.IsDone</td>
-            </tr>
-        }
-    </table>
-
-
-    <form action="add" method="POST" role="form">
-        <legend>Add new Todo</legend>
-
-        <div class="form-group">
-            <label for=""></label>
-            <input type="text" class="form-control" name="Title" placeholder="Title">
-            <input type="text" class="form-control" name="Urgent?" placeholder="False">
-            <input type="text" class="form-control" name="Done?" placeholder="False">
+    <form action="add" method="post" role="form">
+        <div class="container-fluid">
+            <h4>Add new Todo</h4>
+            <input type="text" name="title" placeholder="Title">
+            <input type="text" name="isUrgent" placeholder="True / False">
+            <input type="text" name="isDone" placeholder="True / False">
         </div>
-        <button type="submit" class="btn btn-primary">Add new ToDo</button>
+        <div class="container-fluid">
+            <button type="submit" class="btn btn-success">Add new ToDo</button>
+        </div>
     </form>
 
+    <table class="table table-sm table-hover">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Action</th>
+                <th scope="col">Urgent?</th>
+                <th scope="col">Done?</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var d in Model)
+            {
+                @if (d.IsUrgent == true)
+                {
+                    <tr class="table-danger">
+                        <th scope="row">@d.Id</th>
+                        <td>@d.Title</td>
+                        <td>@d.IsUrgent</td>
+                        <td>@d.IsDone</td>
+                        <td>
+                            <form action="@d.Id/edit" method="get" role="form">
+                                <button type="submit" class="btn btn-info btn-sm">Edit</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action="@d.Id/delete" method="get" role="form">
+                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    <tr>
+                        <th scope="row">@d.Id</th>
+                        <td>@d.Title</td>
+                        <td>@d.IsUrgent</td>
+                        <td>@d.IsDone</td>
+                        <td>
+                            <form action="@d.Id/edit" method="get" role="form">
+                                <button type="submit" class="btn btn-info btn-sm">Edit</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action="@d.Id/delete" method="get" role="form">
+                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+
+                }
+            }
+        </tbody>
+    </table>
 </body>
 </html>
