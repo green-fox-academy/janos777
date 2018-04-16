@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Frontend.Models;
 
 namespace Frontend.Controllers
 {
@@ -48,6 +49,36 @@ namespace Frontend.Controllers
         public IActionResult AppendA(string appendable)
         {
              return Json(new { appended = $"{appendable}a" });
+        }
+
+        [HttpPost("/Dountil/{what}")]
+        public IActionResult Dountil(string what, [FromBody] Dountil dountil)
+        {
+            if (what == "sum")
+            {
+                if (dountil.Number == null)
+                {
+                    return Json(new { error = "Please provide a number!" });
+                }
+                else
+                {
+                    return Json(new { result = dountil.Sum(dountil.Number) });
+                }
+            }
+
+            else if (what == "factor")
+            {
+                if (dountil.Number == null)
+                {
+                    return Json(new { error = "Please provide a number!" });
+                }
+                else
+                {
+                    return Json(new { result = dountil.Factor(dountil.Number) });
+                }
+            }
+
+            return Json(new { error = "error" });
         }
     }
 }
