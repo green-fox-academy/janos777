@@ -78,7 +78,49 @@ namespace Frontend.Controllers
                 }
             }
 
-            return Json(new { error = "error" });
+            return Json(new { error = "Please provide what to do with the numbers!" });
+        }
+
+        [HttpPost("/Arrays")]
+        public IActionResult Arrays([FromBody] Arrays arrays)
+        {
+            if (arrays.What == "sum")
+            {
+                if (arrays.Numbers == null)
+                {
+                    return Json(new { error = "Please provide an array of numbers!" });
+                }
+                else
+                {
+                    return Json(new { result = arrays.Sum(arrays.Numbers) });
+                }
+            }
+
+            else if (arrays.What == "multiply")
+            {
+                if (arrays.Numbers == null)
+                {
+                    return Json(new { error = "Please provide an array of numbers!" });
+                }
+                else
+                {
+                    return Json(new { result = arrays.Multiply(arrays.Numbers) });
+                }
+            }
+
+            else if (arrays.What == "double")
+            {
+                if (arrays.Numbers == null)
+                {
+                    return Json(new { error = "Please provide an array of numbers!" });
+                }
+                else
+                {
+                    return Json(new { result = arrays.Double(arrays.Numbers) });
+                }
+            }
+
+            return Json(new { error = "Please provide what to do with the numbers!" });
         }
     }
 }
