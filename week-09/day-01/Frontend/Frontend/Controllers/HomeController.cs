@@ -4,11 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Frontend.Models;
+using Frontend.Repositories;
 
 namespace Frontend.Controllers
 {
     public class HomeController : Controller
     {
+        private IRepository _repository;
+
+        public HomeController(IRepository repository)
+        {
+            _repository = repository;
+        }
+
         [Route("/")]
         public IActionResult Index()
         {
@@ -18,6 +26,8 @@ namespace Frontend.Controllers
         [HttpGet("/Doubling")]
         public IActionResult Doubling(int? input)
         {
+            _repository.Create("/Doubling", input.ToString());
+
             if (input == null)
             {
                 return Json(new { error = "Please provide an input!" });
